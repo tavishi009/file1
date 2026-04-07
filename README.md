@@ -1,17 +1,17 @@
-# 📚 Study Streak Tracker
+#  Study Streak Tracker
 
 Track your daily study streak and stay consistent 🔥
 
-## 🚀 Features
+##  Features
 - Add daily study session
 - Automatic streak calculation
 - Backend with Flask
 - JSON data storage
 
-## 🛠 Tech Stack
+##  Tech Stack
 - Python (Flask)
 - HTML, CSS, JavaScript
 
-## ▶️ Run Locally
+## ▶ Run Locally
 pip install -r requirements.txt  
 python app.py  
