@@ -8,7 +8,8 @@ Track all your daily study streak and stay consistent
 - Backend with Flask.
 - JSON data storage.
 
-##  Tech Stack
+
+## Tech Stack
 - Python (Flask)
 - HTML, CSS, JavaScript
 
