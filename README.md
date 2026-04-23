@@ -1,4 +1,4 @@
-#  Study Streak Tracker
+# Study Streak Tracker
 
 Track all your daily study streak and stay consistent 
 
