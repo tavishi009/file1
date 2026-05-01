@@ -10,9 +10,11 @@ def load_data():
     try:
         with open(DATA_FILE, "r") as f:
             return json.load(f)
-    except:
+    except FileNotFoundError:
         return []
-
+    except json.JSONDecodeError:
+        return []
+    
 def save_data(data):
     with open(DATA_FILE, "w") as f:
         json.dump(data, f)
