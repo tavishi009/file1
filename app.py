@@ -53,10 +53,12 @@ def add():
 def stats():
     data = load_data()
     streak = calculate_streak(data)
-
+    today = datetime.now().strftime("%Y-%m-%d")
+    studied_today = today in data
     return jsonify({
         "total_days": len(data),
-        "streak": streak
+        "streak": streak,
+        "studied_today": studied_today
     })
 
 if __name__ == "__main__":
